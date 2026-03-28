@@ -17,6 +17,8 @@
   }
 }
 
+
+
 .hero {
   position: relative;
 
@@ -181,4 +183,9 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+h2{
+  color: blueviolet;
+  font-size: 100px;
 }
