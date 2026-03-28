@@ -1,10 +1,14 @@
+import { Section } from './components/Section';
+import Title from './components/Title'
 import './App.css'
+
+const text = "Hello";
 
 function App() {
   return (
-    <>
-    <h2>Hello!</h2>
-    </>
+    <Section>
+    <Title desk={text}/>
+    </Section>
   )
 }
 
